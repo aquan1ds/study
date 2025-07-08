@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Simple FAQ | devChallenges.io</title>
+
+    <style>
+      * {
+        font-family: "Inter";
+      }
+
+      .title {
+        text-align: center;
+        padding-top: 75px;
+        padding-bottom: 75px;
+      }
+      .container {
+        background-color: #f8fafc;
+        padding: 80px 360px 16px 365px;
+      }
+
+      .bd {
+        padding-bottom: 40px;
+        border-bottom: #d2d5da solid 1px;
+      }
+
+      .div1 {
+        margin-bottom: 40px;
+      }
+
+      li {
+        margin-bottom: 16px;
+      }
+
+      p {
+        padding: 16px;
+      }
+
+      h1 {
+        font-size: 36px;
+        font-weight: 600;
+      }
+
+      @media (max-width: 1280px) {
+        .container {
+          padding: 60px 120px 16px 120px;
+        }
+      }
+
+      @media (max-width: 1024px) {
+        .container {
+          padding: 40px 32px 16px 32px;
+        }
+        .title {
+          padding-top: 40px;
+          padding-bottom: 40px;
+        }
+        h1 {
+          font-size: 28px;
+        }
+      }
+
+      @media (max-width: 640px) {
+        .container {
+          padding: 16px 8px 8px 8px;
+        }
+        .title {
+          padding-top: 24px;
+          padding-bottom: 24px;
+        }
+        h1 {
+          font-size: 20px;
+        }
+        h2 {
+          font-size: 16px;
+        }
+        p,
+        li {
+          font-size: 14px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="title">
+      <h1>Frequently Asked Questions</h1>
+      <p>Browse through the most frequently asked questions</p>
+    </div>
+    <div class="container">
+      <div class="div1 bd">
+        <h2>How can I track my order?</h2>
+        <p>You can track your order using the following steps:</p>
+        <ol>
+          <li>Go to the Order <a href="#">Tracking page.</a></li>
+          <li>Enter your order number and email address.</li>
+          <li>
+            Click on the Track Order button to view the current status of your
+            shipment
+          </li>
+        </ol>
+        <p>
+          If you encounter any issues, please visit our
+          <a href="#">Help Center</a>
+        </p>
+      </div>
+      <div>
+        <h2>What is your return policy?</h2>
+        <p>
+          We offer a 30-day return policy on most items. Here are some key
+          points:
+        </p>
+        <ul>
+          <li>
+            <strong>Items must be in original condition:</strong> Unworn,
+            unused, and unwashed.
+          </li>
+          <li>
+            <strong>Include original packaging and tags:</strong> All items
+            should be returned with their original pakaging and tags.
+          </li>
+          <li>
+            <strong>Proof of purchase:</strong> A receipt or proof of purchase
+            is required
+          </li>
+        </ul>
+        <p>
+          For more detailed information, read our full
+          <a href="#">Return Policy</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
